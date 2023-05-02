@@ -1,5 +1,5 @@
 # My Portfolio
-This is my portfolio website, showcasing my projects and skills. You can view the website live at https://charvijain12.github.io/my_portfolio/.
+This is my portfolio website, showcasing my projects and skills. You can view the website live at https://charvijain.me/.
 
 
 ![image](https://user-images.githubusercontent.com/97164074/200180809-bc95ee09-343e-4656-926d-13ceea1172ce.png)
