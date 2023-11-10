@@ -1,8 +1,9 @@
 # My Portfolio
-This is my portfolio website, showcasing my projects and skills. You can view the website live at https://charvijain.me/.
+This is my portfolio website, showcasing my projects and skills. You can view the website live at https://charvijain.live/.
 
 
-![image](https://user-images.githubusercontent.com/97164074/200180809-bc95ee09-343e-4656-926d-13ceea1172ce.png)
+![image](![image](https://github.com/charvijain12/my_portfolio/assets/97164074/85518aa0-00e3-454c-863e-57ff3e55b6de)
+)
 
 
 ## Technologies Used
