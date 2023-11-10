@@ -2,7 +2,7 @@
 This is my portfolio website, showcasing my projects and skills. You can view the website live at https://charvijain.live/.
 
 
-![image](![image](https://github.com/charvijain12/my_portfolio/assets/97164074/85518aa0-00e3-454c-863e-57ff3e55b6de)
+![image]((https://github.com/charvijain12/my_portfolio/assets/97164074/85518aa0-00e3-454c-863e-57ff3e55b6de)
 )
 
 
