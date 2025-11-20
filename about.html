@@ -35,6 +35,40 @@
     <link rel="stylesheet" href="./css/header.css" type="text/css">
     <link rel="stylesheet" href="./css/about.css" type="text/css">
     <link rel="stylesheet" href="./css/footer.css" type="text/css">
+
+    <style>
+        /* Paper Title Color */
+        .paper-title {
+            color: #7EB77F; /* green */
+            font-weight: 700;
+        }
+
+        /* View Paper button */
+        .view-paper {
+            font-size: 0.9em;
+            font-style: italic;
+            color: #F08CAE; /* pink */
+        }
+
+        /* Tech Stack Tag Grid */
+        .tech-stack-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            padding: 6px 14px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #F08CAE;
+            border-radius: 12px;
+            font-size: 0.95em;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -105,8 +139,8 @@
                             <p class="return">[English, Hindi, Punjabi]</p>
                         </div>
 
-                        <div class="statement">
-                            <p class="input bottom"><span></span></p>
+                        <div class="statement bottom">
+                            <p class="input"><span></span></p>
                         </div>
                     </div>
                 </div>
@@ -115,6 +149,7 @@
 
         <!-- EDUCATION + PUBLICATIONS -->
         <section id="education-experience">
+
             <div id="education" class="education-experience-container">
                 <h3>Education</h3>
 
@@ -128,24 +163,28 @@
                     <div class="card-description">
                         <h5>Publications</h5>
 
-                        <p><strong>• DDoS Protection System for Cloud using AWS and Machine Learning</strong><br>
+                        <p>
+                            <span class="paper-title">• DDoS Protection System for Cloud using AWS and Machine Learning</span><br>
                             Published in IEEE Xplore<br>
-                            <a href="https://ieeexplore.ieee.org/document/10842827" target="_blank">View Paper</a>
+                            <a class="view-paper" href="https://ieeexplore.ieee.org/document/10842827" target="_blank">View Paper</a>
                         </p>
 
-                        <p><strong>• AI4BCancer: Breast Cancer Classification using AutoML - TPOT with PCA</strong><br>
+                        <p>
+                            <span class="paper-title">• AI4BCancer: Breast Cancer Classification using AutoML - TPOT with PCA</span><br>
                             Published in IEEE Xplore<br>
-                            <a href="https://ieeexplore.ieee.org/abstract/document/11113989" target="_blank">View Paper</a>
+                            <a class="view-paper" href="https://ieeexplore.ieee.org/abstract/document/11113989" target="_blank">View Paper</a>
                         </p>
 
-                        <p><strong>• AI-Driven Dynamic Fuzz Testing for IoT Security</strong><br>
+                        <p>
+                            <span class="paper-title">• AI-Driven Dynamic Fuzz Testing for IoT Security</span><br>
                             Published in Springer<br>
-                            <a href="#" target="_blank">Link (coming soon)</a>
+                            <a class="view-paper" href="#" target="_blank">Link (coming soon)</a>
                         </p>
 
                         <br>
                         <h5>Relevant Coursework</h5>
                         <p>Machine Learning, Deep Learning, Algorithms, Neural Networks, Cloud Computing, Data Mining, NLP, MLOps</p>
+
                     </div>
                 </div>
             </div>
@@ -154,7 +193,7 @@
             <div id="experience" class="education-experience-container">
                 <h3>Experience</h3>
 
-                <!-- EY -->
+                <!-- EY GDS -->
                 <div class="education-experience-card">
                     <div class="card-info">
                         <h4 class="green">Associate Software Engineer</h4>
@@ -163,9 +202,9 @@
                     </div>
                     <div class="card-description">
                         <h5>AI / ML Domain</h5>
-                        <p>Developing expertise in AI, machine learning, analytics, and data visualization.</p>
-                        <p>Building proficiency in MLOps, Retrieval-Augmented Generation (RAG), and cloud-based AI.</p>
-                        <p>Working on enterprise-scale client-focused AI solutions.</p>
+                        <p>Developing expertise in AI, machine learning, RAG systems, vector search, and agentic AI workflows.</p>
+                        <p>Working with cloud-based AI components, embeddings, model optimization, and scalable retrieval pipelines.</p>
+                        <p>Building strong foundations in automation, data visualization, and intelligent system design.</p>
                     </div>
                 </div>
 
@@ -178,53 +217,53 @@
                     </div>
                     <div class="card-description">
                         <h5>Cloud + Generative AI</h5>
-                        <p>Completed specialized training in Google Cloud Platform (GCP) and GenAI workflows.</p>
-                        <p>Hands-on experience with cloud data pipelines and AI integration.</p>
-                        <p>Contributed to scalable enterprise-level cloud data solutions.</p>
+                        <p>Completed specialized training in Google Cloud Platform (GCP) and Generative AI workflows.</p>
+                        <p>Learned cloud infrastructure, data pipelines, and foundational AI integration techniques.</p>
+                        <p>Strengthened technical skills in cloud automation and scalable AI systems.</p>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- UPDATED TECH STACK -->
+        <!-- TECH STACK -->
         <section id="tech-stack">
             <h3>Tech Stack</h3>
 
-            <div class="tech-stack-container">
+            <div class="tech-stack-tags">
 
                 <!-- Programming -->
-                <div class="skill"><img src="./img/python.svg"><span>Python</span></div>
-                <div class="skill"><img src="./img/cpp.svg"><span>C++</span></div>
-                <div class="skill"><img src="./img/javascript.svg"><span>JavaScript</span></div>
-                <div class="skill"><img src="./img/sql.svg"><span>SQL</span></div>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">SQL</span>
 
                 <!-- AI / ML -->
-                <div class="skill"><img src="./img/tensorflow.svg"><span>TensorFlow</span></div>
-                <div class="skill"><img src="./img/pytorch.svg"><span>PyTorch</span></div>
-                <div class="skill"><img src="./img/keras.svg"><span>Keras</span></div>
-                <div class="skill"><span>Scikit-Learn</span></div>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Keras</span>
+                <span class="tech-tag">Scikit-Learn</span>
 
-                <!-- GenAI / RAG -->
-                <div class="skill"><span>LangChain</span></div>
-                <div class="skill"><span>RAG</span></div>
-                <div class="skill"><span>FAISS</span></div>
-                <div class="skill"><span>ChromaDB</span></div>
-                <div class="skill"><span>Agentic AI</span></div>
+                <!-- RAG + Agentic -->
+                <span class="tech-tag">RAG</span>
+                <span class="tech-tag">Agentic AI</span>
+                <span class="tech-tag">FAISS</span>
+                <span class="tech-tag">ChromaDB</span>
+                <span class="tech-tag">LangChain</span>
 
                 <!-- Backend -->
-                <div class="skill"><span>Node.js</span></div>
-                <div class="skill"><span>Flask</span></div>
-                <div class="skill"><span>PostgreSQL</span></div>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">PostgreSQL</span>
 
                 <!-- Cloud -->
-                <div class="skill"><span>GCP</span></div>
-                <div class="skill"><span>AWS</span></div>
+                <span class="tech-tag">GCP</span>
+                <span class="tech-tag">AWS</span>
 
                 <!-- Tools -->
-                <div class="skill"><img src="./img/git.svg"><span>Git</span></div>
-                <div class="skill"><span>MLOps</span></div>
-                <div class="skill"><span>PySpark</span></div>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">MLOps</span>
+                <span class="tech-tag">PySpark</span>
 
             </div>
         </section>
